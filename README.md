@@ -1,6 +1,6 @@
 <div class="filament-hidden">
 
-![Laravel Umami](https://raw.githubusercontent.com/jeffersongoncalves/filament-umami/master/art/jeffersongoncalves-filament-umami.png)
+![Filament Umami](https://raw.githubusercontent.com/jeffersongoncalves/filament-umami/master/art/jeffersongoncalves-filament-umami.png)
 
 </div>
 
@@ -10,7 +10,7 @@
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/jeffersongoncalves/filament-umami/fix-php-code-style-issues.yml?branch=master&label=code%20style&style=flat-square)](https://github.com/jeffersongoncalves/filament-umami/actions?query=workflow%3A"Fix+PHP+code+styling"+branch%3Amaster)
 [![Total Downloads](https://img.shields.io/packagist/dt/jeffersongoncalves/filament-umami.svg?style=flat-square)](https://packagist.org/packages/jeffersongoncalves/filament-umami)
 
-This Laravel package seamlessly integrates Umami analytics into your Blade templates. Easily track website visits and user engagement directly within your Laravel application, providing valuable insights into your website's performance. This package simplifies the integration process, saving you time and effort. With minimal configuration, you can leverage Umami's powerful analytics features to gain a clearer understanding of your audience and website usage.
+This Filament package seamlessly integrates Umami analytics into your Blade templates. Easily track website visits and user engagement directly within your Laravel application, providing valuable insights into your website's performance. This package simplifies the integration process, saving you time and effort. With minimal configuration, you can leverage Umami's powerful analytics features to gain a clearer understanding of your audience and website usage.
 
 ## Installation
 
