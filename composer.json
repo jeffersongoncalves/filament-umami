@@ -28,7 +28,7 @@
     },
     "autoload": {
         "psr-4": {
-            "JeffersonGoncalves\\Filament\\CookieConsent\\": "src"
+            "JeffersonGoncalves\\Filament\\Umami\\": "src"
         }
     },
     "scripts": {
@@ -46,7 +46,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "JeffersonGoncalves\\Filament\\CookieConsent\\CookieConsentServiceProvider"
+                "JeffersonGoncalves\\Filament\\Umami\\UmamiServiceProvider"
             ]
         }
     },
