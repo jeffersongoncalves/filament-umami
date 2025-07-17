@@ -20,6 +20,14 @@ You can install the package via composer:
 composer require jeffersongoncalves/filament-umami
 ```
 
+This package depends on [jeffersongoncalves/laravel-umami](https://github.com/jeffersongoncalves/laravel-umami) which provides the core Umami analytics integration for Laravel applications.
+
+## Requirements
+
+- PHP 8.2 or higher
+- Laravel 11.0 or 12.0
+- Filament 4.0 or higher
+
 ## Usage
 
 Publish config file.
