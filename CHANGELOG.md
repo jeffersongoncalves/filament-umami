@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+## v3.1.0 - 2026-02-22
+
+### Added
+
+- Settings Page for managing Umami analytics configuration via Filament panel
+- UmamiPlugin class with configurable `settingsPage()` method
+- Translation files (English and Brazilian Portuguese)
+- Support for laravel-umami v2.0
+
+### Settings Page Sections
+
+- **Tracking Configuration** - Website ID, Analytics Host, Host URL
+- **Tracking Behavior** - Auto Track, Exclude Search, Exclude Hash
+- **Advanced Options** - Domains filter, Custom Tag
+
+**Full Changelog**: https://github.com/jeffersongoncalves/filament-umami/compare/v3.0.0...v3.1.0
+
 ## v3.0.0 - 2026-02-16
 
 ### What's Changed
