@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## v3.2.0 - 2026-02-22
+
+### What's Changed
+
+- **feat:** Add translatable navigation group support — the `$navigationGroup` now uses Laravel's translation system instead of a hardcoded string, allowing proper localization (en: "Settings", pt_BR: "Configurações")
+
+**Full Changelog**: https://github.com/jeffersongoncalves/filament-umami/compare/v3.1.1...v3.2.0
+
 ## v3.1.2 - 2026-02-22
 
 ### Fixed
