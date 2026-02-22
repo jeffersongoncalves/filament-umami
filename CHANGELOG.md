@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## v2.1.1 - 2026-02-22
+
+### Fixed
+
+- Add `columns(null)` to schema for full-width sections in Settings Page
+
+**Full Changelog**: https://github.com/jeffersongoncalves/filament-umami/compare/v2.1.0...v2.1.1
+
 ## v2.1.0 - 2026-02-22
 
 ### Added
