@@ -52,7 +52,13 @@ This will automatically:
 
 ### 2. Run Settings Migration
 
-Publish and run the settings migration from `laravel-umami`:
+If you haven't already, publish the `spatie/laravel-settings` migration to create the `settings` table:
+
+```bash
+php artisan vendor:publish --provider="Spatie\LaravelSettings\LaravelSettingsServiceProvider" --tag="migrations"
+```
+
+Then publish and run the Umami settings migration:
 
 ```bash
 php artisan vendor:publish --tag=umami-settings-migrations
