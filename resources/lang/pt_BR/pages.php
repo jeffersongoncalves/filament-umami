@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'navigation_group' => 'Configurações',
     'navigation_label' => 'Umami Analytics',
     'title' => 'Configurações do Umami Analytics',
 

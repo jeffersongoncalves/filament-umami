@@ -15,7 +15,10 @@ class ManageUmamiSettings extends SettingsPage
 
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-chart-bar-square';
 
-    protected static string|\UnitEnum|null $navigationGroup = 'Settings';
+    public static function getNavigationGroup(): ?string
+    {
+        return __('filament-umami::pages.navigation_group');
+    }
 
     public static function getNavigationLabel(): string
     {
