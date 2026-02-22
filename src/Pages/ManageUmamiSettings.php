@@ -30,6 +30,7 @@ class ManageUmamiSettings extends SettingsPage
     public function form(Schema $schema): Schema
     {
         return $schema
+            ->columns(null)
             ->schema([
                 Section::make(__('filament-umami::pages.sections.tracking_configuration.heading'))
                     ->description(__('filament-umami::pages.sections.tracking_configuration.description'))
