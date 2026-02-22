@@ -12,7 +12,8 @@ class UmamiServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
-        $package->name('filament-umami');
+        $package->name('filament-umami')
+            ->hasTranslations();
     }
 
     public function packageRegistered(): void
