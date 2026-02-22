@@ -30,16 +30,50 @@ This package depends on [jeffersongoncalves/laravel-umami](https://github.com/je
 
 ## Usage
 
-Publish config file.
+### 1. Register the Plugin
 
-```bash
-php artisan vendor:publish --tag=umami-config
-```
-
-Add head template.
+Add the plugin to your `PanelProvider`:
 
 ```php
-@include('umami::script')
+use JeffersonGoncalves\Filament\Umami\UmamiPlugin;
+
+public function panel(Panel $panel): Panel
+{
+    return $panel
+        ->plugins([
+            UmamiPlugin::make(),
+        ]);
+}
+```
+
+This will automatically:
+- Inject the Umami tracking script into your panel
+- Add a **Settings Page** to manage your Umami configuration
+
+### 2. Run Settings Migration
+
+Publish and run the settings migration from `laravel-umami`:
+
+```bash
+php artisan vendor:publish --tag=umami-settings-migrations
+php artisan migrate
+```
+
+### 3. Manage Settings
+
+Navigate to **Settings > Umami Analytics** in your Filament panel to configure:
+
+- **Tracking Configuration** - Website ID, Analytics Host, Host URL
+- **Tracking Behavior** - Auto Track, Exclude Search Parameters, Exclude Hash
+- **Advanced Options** - Domains filter, Custom Tag
+
+### Disabling the Settings Page
+
+If you only want the tracking script injection without the settings page:
+
+```php
+UmamiPlugin::make()
+    ->settingsPage(false),
 ```
 
 ## Testing
