@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'navigation_group' => 'Settings',
     'navigation_label' => 'Umami Analytics',
     'title' => 'Umami Analytics Settings',
 
