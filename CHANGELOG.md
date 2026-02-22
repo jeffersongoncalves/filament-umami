@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## v3.1.2 - 2026-02-22
+
+### Fixed
+
+- Added missing `spatie/laravel-settings` migration step to README installation guide
+
 ## v3.1.1 - 2026-02-22
 
 ### Fixed
