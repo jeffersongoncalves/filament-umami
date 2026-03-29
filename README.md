@@ -1,6 +1,6 @@
 <div class="filament-hidden">
 
-![Filament Umami](https://raw.githubusercontent.com/jeffersongoncalves/filament-umami/2.x/art/jeffersongoncalves-filament-umami.png)
+![Filament Umami](https://raw.githubusercontent.com/jeffersongoncalves/filament-umami/2.x/art/jeffersongoncalves-filament-umami.jpg)
 
 </div>
 
