@@ -11,7 +11,7 @@ description: "Umami analytics integration for Laravel Blade templates with easy 
 
 # --- Images ---
 # Anexe os arquivos de imagem junto com este YAML no chat
-image: "jeffersongoncalves-filament-umami.jpg"
+image: "jeffersongoncalves-filament-umami.png"
 thumbnail: ""
 
 # --- Compatibility & Features ---
