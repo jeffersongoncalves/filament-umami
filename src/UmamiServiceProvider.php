@@ -2,22 +2,20 @@
 
 namespace JeffersonGoncalves\Filament\Umami;
 
-use Filament\Support\Facades\FilamentView;
 use Filament\View\PanelsRenderHook;
-use Illuminate\Contracts\View\View;
-use Spatie\LaravelPackageTools\Package;
-use Spatie\LaravelPackageTools\PackageServiceProvider;
+use JeffersonGoncalves\FilamentAnalyticsCore\AbstractAnalyticsServiceProvider;
 
-class UmamiServiceProvider extends PackageServiceProvider
+class UmamiServiceProvider extends AbstractAnalyticsServiceProvider
 {
-    public function configurePackage(Package $package): void
+    protected function packageName(): string
     {
-        $package->name('filament-umami')
-            ->hasTranslations();
+        return 'filament-umami';
     }
 
-    public function packageRegistered(): void
+    protected function renderHooks(): array
     {
-        FilamentView::registerRenderHook(PanelsRenderHook::HEAD_START, fn (): View => view('umami::script'));
+        return [
+            PanelsRenderHook::HEAD_START => 'umami::script',
+        ];
     }
 }
