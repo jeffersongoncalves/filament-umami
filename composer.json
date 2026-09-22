@@ -18,7 +18,7 @@
     "require": {
         "php": "^8.2",
         "jeffersongoncalves/filament-analytics-core": "^3.0",
-        "jeffersongoncalves/laravel-umami": "^2.0"
+        "jeffersongoncalves/laravel-umami": "^3.0"
     },
     "require-dev": {
         "larastan/larastan": "^3.0",
