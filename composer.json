@@ -1,6 +1,6 @@
 {
     "name": "jeffersongoncalves/filament-umami",
-    "description": "This Laravel package seamlessly integrates Umami analytics into your Blade templates. Easily track website visits and user engagement directly within your Laravel application, providing valuable insights into your website's performance. This package simplifies the integration process, saving you time and effort. With minimal configuration, you can leverage Umami's powerful analytics features to gain a clearer understanding of your audience and website usage.",
+    "description": "Filament plugin for Umami analytics — tracking script injection and a Settings Page to manage Umami configuration directly from your Filament panel.",
     "keywords": [
         "jeffersongoncalves",
         "laravel",
