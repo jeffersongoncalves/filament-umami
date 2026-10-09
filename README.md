@@ -25,6 +25,15 @@ composer require jeffersongoncalves/filament-umami
 
 This package depends on [jeffersongoncalves/laravel-umami](https://github.com/jeffersongoncalves/laravel-umami) which provides the core Umami analytics integration for Laravel applications.
 
+### Navigation group
+
+Put the settings page in one of your panel's own navigation groups (a string or a closure):
+
+```php
+UmamiPlugin::make()
+    ->navigationGroup(fn (): string => __('admin.navigation.settings')),
+```
+
 ## Requirements
 
 - PHP 8.2 or higher
