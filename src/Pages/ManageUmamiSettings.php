@@ -7,6 +7,7 @@ use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
 use Filament\Forms\Form;
 use Filament\Pages\SettingsPage;
+use JeffersonGoncalves\FilamentAnalyticsCore\AbstractAnalyticsPlugin;
 use JeffersonGoncalves\Umami\Settings\UmamiSettings;
 
 class ManageUmamiSettings extends SettingsPage
@@ -17,7 +18,7 @@ class ManageUmamiSettings extends SettingsPage
 
     public static function getNavigationGroup(): ?string
     {
-        return __('filament-umami::pages.navigation_group');
+        return AbstractAnalyticsPlugin::navigationGroupFor('filament-umami') ?? __('filament-umami::pages.navigation_group');
     }
 
     public static function getNavigationLabel(): string
