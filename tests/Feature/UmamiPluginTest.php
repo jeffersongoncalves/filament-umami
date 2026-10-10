@@ -4,9 +4,9 @@ use Filament\Facades\Filament;
 use Filament\Support\Facades\FilamentView;
 use Filament\View\PanelsRenderHook;
 use Illuminate\Foundation\Auth\User;
-use JeffersonGoncalves\Umami\Settings\UmamiSettings;
-use JeffersonGoncalves\Filament\Umami\UmamiPlugin;
 use JeffersonGoncalves\Filament\Umami\Pages\ManageUmamiSettings;
+use JeffersonGoncalves\Filament\Umami\UmamiPlugin;
+use JeffersonGoncalves\Umami\Settings\UmamiSettings;
 use Livewire\Livewire;
 
 beforeEach(function () {
